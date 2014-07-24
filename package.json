@@ -1,7 +1,7 @@
 {
   "name": "jarvix.js",
   "version": "0.0.1",
-  "description": "",
+  "description": "Javascript tools library for distributed web project development.",
   "author": {
     "name": "Stefano Graziato"
   },
