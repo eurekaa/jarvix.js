@@ -1,0 +1,31 @@
+{
+  "name": "jarvix.js",
+  "version": "0.0.1",
+  "description": "",
+  "author": {
+    "name": "Stefano Graziato"
+  },
+  "license": "BSD",
+  "scripts": {
+    "compile": "continuum src bin -c tmp/cache -e",
+    "docs": "jsdoc src -d doc -c doc/_conf.json"
+  },
+  "preferGlobal": true,
+  "keywords": [],
+  "dependencies": {
+    "eventify": "*",
+      "traits": "*",
+      "underscore": "*",
+      "requirejs": "*",
+      "continuum.js": "*",
+      "mongodb": "*",
+      "ws": "*",
+      "primus": "*",
+      "primus-emitter": "*",
+      "primus-responder": "*",
+      "primus-rooms": "*"
+  },
+  "readmeFilename": "README.md",
+  "_id": "jarvix.js@eurekaa.it",
+  "_from": "jarvix.js@"
+}
