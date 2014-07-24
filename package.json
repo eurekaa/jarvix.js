@@ -6,6 +6,13 @@
     "name": "Stefano Graziato"
   },
   "license": "BSD",
+  "repository": {
+        "type": "git",
+        "url": "git://github.com/eurekaa/jarvix.js.git"
+  },
+  "bugs": {
+        "url": "https://github.com/eurekaa/jarvix.js/issues"
+  },
   "scripts": {
     "compile": "continuum src bin -c tmp/cache -e",
     "docs": "jsdoc src -d doc -c doc/_conf.json"
